@@ -10,5 +10,6 @@
 @pause
 @cls
 @java Hello
+@pause
 @del Hello.class
 @cd .. & rd Hello.java的临时字节码文件
