@@ -1,12 +1,14 @@
 @echo off
-@title ±àÒë²¢ÔËĞĞÎ´±àÒëµÄJavaÔ´Âë
-@echo ¼´½«±àÒë²¢ÔËĞĞÎ´±àÒëµÄHello.JavaÔ´ÂëÎÄ¼ş
+@title ç¼–è¯‘å¹¶è¿è¡Œæœªç¼–è¯‘çš„Javaæºç 
+@echo å³å°†ç¼–è¯‘å¹¶è¿è¡Œæœªç¼–è¯‘çš„Hello.Javaæºç æ–‡ä»¶
 @pause
-@mkdir Hello.javaµÄÁÙÊ±×Ö½ÚÂëÎÄ¼ş
-@cd Hello.javaµÄÁÙÊ±×Ö½ÚÂëÎÄ¼ş
-@echo ÕıÔÚ±àÒëÖĞ£¬ÇëÉÔºó......
+@mkdir Hello.javaçš„ä¸´æ—¶å­—èŠ‚ç æ–‡ä»¶
+@cd Hello.javaçš„ä¸´æ—¶å­—èŠ‚ç æ–‡ä»¶
+@echo æ­£åœ¨ç¼–è¯‘ä¸­ï¼Œè¯·ç¨å......
 @javac ..\Hello.java -d .\
-@echo ¼´½«ÔËĞĞ
+@echo å³å°†è¿è¡Œ
 @pause
 @cls
 @java Hello
+@del Hello.class
+@cd .. & rd Hello.javaçš„ä¸´æ—¶å­—èŠ‚ç æ–‡ä»¶
